@@ -1,6 +1,6 @@
 Initialize Git repository and do a fetch
 $git svn init <svn_repo_url>
-$git config svn_authorsfile users.txt
+$git config svn.authorsfile users.txt
 $git svn fetch
 $git remote add origin https://github.com/pankaj-chhabra/git-svn-test.git
 git push -u origin master
